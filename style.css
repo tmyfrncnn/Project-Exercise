@@ -17,6 +17,16 @@ h4 {
 p {
     font-family: Arial, Helvetica, sans-serif; font-size: small;
 }
+
+div.container {
+    text-align: center;
+}
+
+ul.food {
+    display: inline-block;
+    text-align: left;
+
+}
     
 .Socials {
     text-align: center;
@@ -24,4 +34,9 @@ p {
 
 footer {
     background-color: #74A8DA;
+}
+
+
+body {
+    text-align: center;
 }
