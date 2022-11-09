@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+main {
+    background-color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 body {
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 legend.search{
@@ -8,15 +18,8 @@ legend.search{
 
 h2.HelloWorld {
     background-color: rgb(255, 185, 197); color: rgb(165, 55, 55);
-    margin-left: 310px;
-    margin-right: 310px;
+    margin-top: 25px;
     font-family: 'Courier New', Courier, monospace;
-}
-
-main {
-    background-color: aliceblue;
-    margin-left: 310px;
-    margin-right: 310px;
 }
 
 h3 {
@@ -44,9 +47,20 @@ ul.food {
 .Socials {
     text-align: center;
     padding-top: .5px;
-    margin-left: 310px;
-    margin-right: 310px;
     padding-bottom: 15px;
+}
+
+@media screen and (max-width:800px) {
+    main {
+        margin: 0;
+    }
+    .Socials {
+        margin: 0;
+    }
+
+    div[role='banner'] img {
+        width: 500px;
+    }
 }
 
 div.fact{
