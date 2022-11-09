@@ -2,8 +2,21 @@ body {
     text-align: center;
 }
 
+legend.search{
+    margin-left: 420px;
+}
+
+h2.HelloWorld {
+    background-color: rgb(255, 185, 197); color: rgb(165, 55, 55);
+    margin-left: 310px;
+    margin-right: 310px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 main {
     background-color: aliceblue;
+    margin-left: 310px;
+    margin-right: 310px;
 }
 
 h3 {
@@ -30,12 +43,71 @@ ul.food {
     
 .Socials {
     text-align: center;
+    padding-top: .5px;
+    margin-left: 310px;
+    margin-right: 310px;
+    padding-bottom: 15px;
+}
+
+div.fact{
+    text-align: left;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+
+div.sub{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+fieldset{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+button.Sub {
+    margin-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: blueviolet;
+    color: bisque;
+}
+
+button {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 2px;
+    border-style: hidden;
+    background-color: blueviolet;
+    color: bisque;
+}
+
+button.Sub:hover {
+    background-color: bisque;
+    color: blueviolet;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+}
+
+button:hover {
+    background-color: bisque;
+    color: blueviolet;
+    border-style:solid;
+    border-width: 1px;
+    border-color: blueviolet;
 }
 
 footer {
     background-color: #74A8DA;
 }
-
 
 body {
     text-align: center;

@@ -9,11 +9,10 @@
             <div role="banner">
                 <img src="img/peeplup-banner.png">
             </div><br>
-            <legend>
+            <legend class="search">
                 <input placeholder="Search..." type="text"> <a href="./error.html"><button>Search</button></a>
             </legend>
-            <h2 style="background-color: rgb(255, 185, 197); color: rgb(165, 55, 55);
-                font-family: 'Courier New', Courier, monospace;"> Hello Sekai!!!!</h2>
+            <h2 class="HelloWorld">Hello Sekai!!!!</h2>
         </header>
         
         <main>
@@ -63,14 +62,16 @@
             <div>
                 <h4>Random Fact 3:</h4>
                     <p>To all the artists I've known, Andy Warhol and Jean Basquiat are <em>my favorite. ✨</em></p> 
-                        <b>And did you know?</b>
-                        <p><b><em>Andy Warhol was a lifelong friend and mentor to Basquiat.</em></b></p>
-                <details>
-                    <p> The two collaborated from 1983 to 1985 where Basquiat painted graffiti over Warhol's pop prints.
-                        <br>A 1996 biopic directed by Julian Schnabel depicted Basquiat's life starring Jeffrey Wright as
-                        Basquiat<br>and David Bowie as Warhol.
-                    </p>
-                </details>
+                        <div class="fact">
+                            <b>And did you know?</b>
+                            <p><b><em>Andy Warhol was a lifelong friend and mentor to Basquiat.</em></b></p>
+                                <details>
+                                    <p> The two collaborated from 1983 to 1985 where Basquiat painted graffiti over Warhol's pop prints.
+                                    <br>A 1996 biopic directed by Julian Schnabel depicted Basquiat's life starring Jeffrey Wright as
+                                    Basquiat<br>and David Bowie as Warhol.
+                                    </p>
+                                </details>
+                        </div>
             </div>
         </section>
 
@@ -79,14 +80,16 @@
                     <form>
                         <fieldset>
                             <legend>Feel free to sign up to receive a daily shit ton of randomness 😗</legend>
-                            <label for="email">Email:</label>
-                            <input placeholder="Email" type="text"><br>
-                            <label for="password">Password:</label>
-                            <input placeholder="Password" type="password">
+                            <div class="sub">
+                                <label for="email">Email:</label>
+                                <input placeholder="Email" type="text"><br>
+                                <label for="password">Password:</label>
+                                <input placeholder="Password" type="password">
+                            </div>
                             <p> <input type="checkbox"> By signing up, you agree to worship our Lord and Saviour Piplup everyday.</p>
                         </fieldset>
                     </form><br>
-                        <a href="./succeeded.html"><button>Submit</button></a>
+                        <a href="./succeeded.html"><button class="Sub">Submit</button></a>
         </section>    
         </main>
 
@@ -95,8 +98,6 @@
                 <a href="https://twitter.com/tmyfrncnn"><img src="./icons/Twitter-logo.svg" height="20" width="20" alt="Twitter Logo"/></a>
                 <a href="https://www.behance.net/tmyfrncnn"><img src="./icons/behance-1.svg" height="20" width="20" alt="Behance Logo"/></a>
             </nav>
-            <br>
-            <div role="contentinfo"> All Rights Reserved.</div>
         </footer>
     </body>
 </html>
